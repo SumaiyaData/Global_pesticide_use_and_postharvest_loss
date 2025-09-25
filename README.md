@@ -35,5 +35,7 @@ This project examines the relationship between global pesticide use (1990–2023
 - Key Insight 4: Europe demonstrates low loss with moderate inputs, while Asia and North America reveal inefficiencies. ((Asia’s trends may also reflect cultural and consumption patterns)
 - Key Insight 5: A global “efficiency paradox” exists — more pesticides do not automatically mean less food waste.
 
-## 🚀 Future Work
-- Implementing Machine Learning
+## Machine Learning Summary:
+- Trained 6 models (Linear Regression, Ridge, Lasso, Random Forest, Gradient Boosting, XGBoost) to predict postharvest food loss from pesticide use and other features.
+- Models highlighted regional and crop-specific patterns, but overfitting/data leakage occurred, so predictions may not generalize.
+- Confirms statistical findings: pesticide use alone is not a strong predictor of food loss.
